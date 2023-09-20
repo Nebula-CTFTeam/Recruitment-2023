@@ -89,6 +89,39 @@
 
 ### 杂项 (Misc)
 
+Misc 方向内部可以细分为很多领域，如：
+
+- Stego（隐写）
+- Forensics（取证）
+- Recon（信息搜集，包括 OSINT 等）
+- ...
+
+此外，有时 AI Security 和区块链安全也会算在 Misc 方向。
+
+#### 入门
+
+国内一些比赛和国外一些小型 CTF 竞赛对于隐写、取证、信息搜集方面的考查较多，且简单的题目以对工具的使用为主，不涉及繁杂的代码编写。对于基础比较薄弱的同学，可以考虑从这里入手训练。
+
+以下是一些靶场推荐：
+- [picoCTF](https://picoctf.org)
+- [BUUCTF 在线评测](https://buuoj.cn/)
+
+除此之外，可以参加一些国外的小比赛进行训练。
+
+需要留意的是，这类题目会出现一些被称为“脑洞题”、“套娃题”的低质量题目。
+
+#### 进阶
+
+在困难的国际比赛中，Misc 选手需要具备广博的知识面和快速学习的能力，**任何题目都可能出现在 Misc 分类中**。
+
+以下是一些具体的例子：
+
+- zer0pts CTF 2023：侧信道攻击
+- HITCON CTF 2023：逆向工程、二进制漏洞利用、socket 编程
+- （某一次比赛，忘了名字）：Android 逆向获取 API，然后 SQL 注入
+
+不过一般而言，这类题目不会像各方向专门的题目一样困难。
+
 ---
 
 ### 讨论与求助
@@ -155,6 +188,12 @@ Hackergame 校内获奖（包括特别奖项）；
 
 ### 杂项 (Misc)
 
+以下条件满足其一即可：
+
+- Hackergame general 分类校内排名前 30
+- picoCTF 练习题 General Skills 和 Forensics 分类共 99 题，完成 25 题
+- 如果你有某方面的兴趣或特长，可以找 mentor 定制任务
+
 ---
 
 ## 附录：联系方式
@@ -170,5 +209,6 @@ NEBULA 2023 招新群 QQ：476033823
 - Pwn: 
 - Crypto: 
 - Misc:
-    - Blockchain: 617948291 ([hklst4r](https://github.com/hklst4r/))      
+    - Blockchain: 617948291 ([hklst4r](https://github.com/hklst4r/))
+    - General: 844969389 ([Crabtux](https://github.com/Crabtux))
 - Reverse: 
