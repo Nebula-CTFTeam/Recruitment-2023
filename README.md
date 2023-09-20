@@ -140,5 +140,6 @@ NEBULA 2023 招新群 QQ：476033823
 - Web: 
 - Pwn: 
 - Crypto: 
-- Misc: 
+- Misc:
+    - Blockchain: 617948291 ([hklst4r](https://github.com/hklst4r/))      
 - Reverse: 
