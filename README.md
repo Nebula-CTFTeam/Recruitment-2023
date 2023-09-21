@@ -77,13 +77,42 @@
 
 ### 二进制漏洞利用 (Pwn)
 
+1. https://pwnable.kr/
+
+2. https://pwnable.tw/
+
+3. 以往比赛题（国内比赛基本可以在 buuctf 练习平台里找到）
+
+4. 安全客、先知、看雪等平台的文章
+
+强烈推荐 pwnable.kr 和 pwnable.tw（tw 题偏难，适合基础掌握后去看），如果觉得都太难了可以做 buuctf 的题
+
+工具：pwntools、gdb (with pwndbg 插件)、IDA Pro、各种 ubuntu 发行版、ROPgadget 等
+
 ---
 
 ### Web (Web)
 
+需要了解的知识：HTTP 协议、JavaScript、PHP、Python、Flask、Nginx、Apache、SQL等；
+
+工具：浏览器开发者工具、Burpsuite、sqlmap、nmap 等；
+
+常见漏洞：SQL 注入、XSS 跨站脚本、CSRF 跨站请求伪造、文件上传、文件包含、框架安全、PHP 常见漏洞、Python 常见漏洞、代码审计等；
+
+资料：通用资料和 https://websec.readthedocs.io/zh/latest/ ；
+
 ---
 
 ### 密码学 (Crypto)
+
+工具：Python、SageMath、RsaCtfTool 等，重要的在于积累各种类型题的解题脚本
+
+学习资料：基础部分可以参考上面的通用资料，进阶可以看知名比赛题目的 writeup
+
+练习平台：
+- https://crypto.sqrt-1.me/（zzh 前辈搭建的练习平台）
+
+- https://cryptohack.org/
 
 ---
 
@@ -179,12 +208,30 @@ Hackergame 校内获奖（包括特别奖项）；
 
 ### 二进制漏洞利用 (Pwn)
 
+两项任选其一完成即可:
+
+1. pwnable.tw 任意 2 题（较困难, 建议选择 start 和 calc 两题）
+
+2. `nc pwnable.nebuu.la 80` 任意两题（附件见 attachement 链接）
+
+**并且能够解释自己的 writeup（解题报告）**
+
 
 ### Web (Web)
 
+ctfhub 技能树( https://www.ctfhub.com/#/skilltree ) web 分枝下信息泄露， SQL 注入，XSS ，文件上传几项中共选择 5 题，并简单记录解题过程
 
 ### 密码学 (Crypto)
 
+Hackergame 密码学题目（具体列表比赛开始后公布）任意两题
+
+或 https://crypto.sqrt-1.me/ 任意 10 题
+
+或 https://cryptohack.org/ 任意 10 题（前两个分类和问答题除外）
+
+或找 mentor 根据自身基础和兴趣个性化定制任务
+
+请大家保留自己的解题代码，要求大家能够讲清楚解题思路及原理
 
 ### 杂项 (Misc)
 
@@ -204,11 +251,18 @@ NEBULA 2023 招新群 QQ：476033823
 
 **如果有不方便在群里问的问题，可以联系群管理员中对应方向的 mentor（mentor 有自己的学习科研任务，可能很忙，如果照顾不过来请谅解）；**
 
-（括号内为 QQ 尾号）
+（括号内为 QQ 尾号，详见招新群管理员列表）
 - Web: 
+    - 17*****424 (wy)
+    - 12*****716 (danqi)
 - Pwn: 
+    - 27*****628 (eastXueLian)
+    - 10*****394 (lrcno6)
 - Crypto: 
+    - 11*****972 (brealid)
 - Misc:
-    - Blockchain: 617948291 ([hklst4r](https://github.com/hklst4r/))
-    - General: 844969389 ([Crabtux](https://github.com/Crabtux))
+    - Blockchain: 61*****91 ([hklst4r](https://github.com/hklst4r/))
+    - General: 8*****389 ([Crabtux](https://github.com/Crabtux))
+    - AISec: 17*****192 (abd)
 - Reverse: 
+    - 22*****204 (0xd009)
