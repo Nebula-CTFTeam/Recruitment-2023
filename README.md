@@ -16,20 +16,20 @@
 
 - [重要时间节点](#重要时间节点)
 - [学习资料与练习平台](#学习资料与练习平台)
-    - [通用资料](#通用资料)
-    - [逆向 (Reverse)](#逆向-Reverse)
-    - [二进制漏洞利用 (Pwn)](#二进制漏洞利用-Pwn)
-    - [Web (Web)](#Web-Web)
-    - [密码学 (Crypto)](#密码学-Crypto)
-    - [杂项 (Misc)](#杂项-Misc)
-    - [讨论与求助](#讨论与求助)
+  - [通用资料](#通用资料)
+  - [逆向 (Reverse)](#逆向-Reverse)
+  - [二进制漏洞利用 (Pwn)](#二进制漏洞利用-Pwn)
+  - [Web (Web)](#Web-Web)
+  - [密码学 (Crypto)](#密码学-Crypto)
+  - [杂项 (Misc)](#杂项-Misc)
+  - [讨论与求助](#讨论与求助)
 - [各方向招新选拔要求](#各方向招新选拔要求)
-    - [通用](#通用)
-    - [逆向 (Reverse)](#逆向-Reverse-1)
-    - [二进制漏洞利用 (Pwn)](#二进制漏洞利用-Pwn-1)
-    - [Web (Web)](#Web-Web-1)
-    - [密码学 (Crypto)](#密码学-Crypto-1)
-    - [杂项 (Misc)](#杂项-Misc-1)
+  - [通用](#通用)
+  - [逆向 (Reverse)](#逆向-Reverse-1)
+  - [二进制漏洞利用 (Pwn)](#二进制漏洞利用-Pwn-1)
+  - [Web (Web)](#Web-Web-1)
+  - [密码学 (Crypto)](#密码学-Crypto-1)
+  - [杂项 (Misc)](#杂项-Misc-1)
 - [附录：联系方式](#附录联系方式)
 
 ---
@@ -38,7 +38,9 @@
 
 招新开始时间：北京时间 2023 年 10 月
 
-招新截止时间：北京时间 2023 年 10 月 31 日 23:59:59，有特殊情况可联系说明
+~~招新截止时间：北京时间 2023 年 10 月 31 日 23:59:59，有特殊情况可联系说明~~
+
+**招新持续开启，没有截止时间**
 
 ---
 
@@ -52,7 +54,7 @@
 
 - [Nebula-CTFTeam/CTF_101](https://github.com/Nebula-CTFTeam/CTF_101) ( https://github.com/Nebula-CTFTeam/CTF_101 )
 
-    - 供新人参考的新生赛的题解，招新期间我们也会把合适的比赛发到招新群中并在赛后即时发布题解供大家参考学习
+  - 供新人参考的新生赛的题解，招新期间我们也会把合适的比赛发到招新群中并在赛后即时发布题解供大家参考学习
 
 > **记得学习 CTF 最重要的是实践而不是看书**
 >
@@ -65,6 +67,7 @@
 建议：多实践，实践到瓶颈就会找到理论学习的方向
 
 书籍：
+
 - 《深入理解计算机系统》（前三章）
 - 《加密与解密》（工具书）
 - 《逆向工程核心原理》（如果喜欢看书学习）
@@ -110,6 +113,7 @@
 学习资料：基础部分可以参考上面的通用资料，进阶可以看知名比赛题目的 writeup
 
 练习平台：
+
 - https://crypto.sqrt-1.me/（zzh 前辈搭建的练习平台）
 
 - https://cryptohack.org/
@@ -132,6 +136,7 @@ Misc 方向内部可以细分为很多领域，如：
 国内一些比赛和国外一些小型 CTF 竞赛对于隐写、取证、信息搜集方面的考查较多，且简单的题目以对工具的使用为主，不涉及繁杂的代码编写。对于基础比较薄弱的同学，可以考虑从这里入手训练。
 
 以下是一些靶场推荐：
+
 - [picoCTF](https://picoctf.org)
 - [BUUCTF 在线评测](https://buuoj.cn/)
 
@@ -196,10 +201,12 @@ Hackergame 校内获奖（包括特别奖项）；
 - 能成功安装IDA Pro 7.5+，并深刻认识到F5的含金量
 
 训练量上，你至少需要：
+
 - 完成[buuoj](https://buuoj.cn/)上reverse方向第一页的32题，可以参考网上的Writeup
 - 挑选其中5题写详细的Writeup供mentor考察和指导
 
 训练效果上，你将：
+
 - 能使用IDA Pro静态分析二进制文件
 - 能在汇编层面上调试二进制文件（能使用Ollydbg, x64dbg, gdb, windbg的其中至少一种）
 - 熟悉逆向中常用的加密或编码方法，并能借助工具或自行写代码解密（RC4, TEA, RSA, AES, base64等）
@@ -215,7 +222,6 @@ Hackergame 校内获奖（包括特别奖项）；
 2. `nc pwnable.nebuu.la 80` 任意两题（附件见 attachement 链接）
 
 **并且能够解释自己的 writeup（解题报告）**
-
 
 ### Web (Web)
 
@@ -252,17 +258,18 @@ NEBULA 2023 招新群 QQ：476033823
 **如果有不方便在群里问的问题，可以联系群管理员中对应方向的 mentor（mentor 有自己的学习科研任务，可能很忙，如果照顾不过来请谅解）；**
 
 （括号内为 QQ 尾号，详见招新群管理员列表）
-- Web: 
-    - 17*****424 (wy)
-    - 12*****716 (danqi)
-- Pwn: 
-    - 27*****628 (eastXueLian)
-    - 10*****394 (lrcno6)
-- Crypto: 
-    - 11*****972 (brealid)
+
+- Web:
+  - 17**\***424 (wy)
+  - 12**\***716 (danqi)
+- Pwn:
+  - 27**\***628 (eastXueLian)
+  - 10**\***394 (lrcno6)
+- Crypto:
+  - 11**\***972 (brealid)
 - Misc:
-    - Blockchain: 61*****91 ([hklst4r](https://github.com/hklst4r/))
-    - General: 8*****389 ([Crabtux](https://github.com/Crabtux))
-    - AISec: 17*****192 (abd)
-- Reverse: 
-    - 22*****204 (0xd009)
+  - Blockchain: 61**\***91 ([hklst4r](https://github.com/hklst4r/))
+  - General: 8**\***389 ([Crabtux](https://github.com/Crabtux))
+  - AISec: 17**\***192 (abd)
+- Reverse:
+  - 22**\***204 (0xd009)
