@@ -114,7 +114,7 @@
 
 练习平台：
 
-- https://crypto.sqrt-1.me/（zzh 前辈搭建的练习平台）
+- https://crypto.sqrt-1.me/ （zzh 前辈搭建的练习平台）
 
 - https://cryptohack.org/
 
